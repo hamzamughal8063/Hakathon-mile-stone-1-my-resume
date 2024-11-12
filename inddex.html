@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="resume-container">
+
+        <!---left section-->
+        <div class="left-section">
+
+            <img src="WhatsApp Image 2024-04-18 at 10.53.59 PM.jpeg" alt="whatsapp-picture" class="whatsapp-picture">
+
+            <section class="objective">
+                <h3 style="color: white;"> "Career Objective" </h3>
+                <p style="text-align: justify; hyphens: auto;">To secure an employment opportunity ...</p>
+
+            </section>
+
+            <section id= "Certification">
+                <h3 style="color: white;">Certification</h3>
+                <p><b>Generative Artificial Intelligence, Web 3.0 Developer Executive An Metaverse:</b> From Sindh Governor House Karachi (ongoing)</p>
+                <p><b>CIT:</b>From M U Khan Coaching Center</p>
+            </section>
+
+        </div>
+
+        <!--right section-->
+        <div class="right section">
+            <h1>Static Interactive Resume</h1>
+            
+            <!--personal information-->
+               <section id="personal-information">
+                <h3>Personal Information</h3>
+                <p><b>Name:</b> Ameer Hamza</p>
+                <P><b>Phone:</b> +923012391873</P>
+                <p><b>Email:</b> <a href="Mailto: Hamzamughal8063@gmail.com"> Hamzamughal8063@gmail.com</a></p>
+                <p><b>LinkdIn:</b> <a href="https://www.linkedin.com/in/hamza-mughal-10ab89274" target="_blank">www.linkedin.com</a></p>
+                <p><b>Marital Status:</b> Single</p>
+                <p><b>Nationality:</b> Pakistan</p>
+                <p><b>Religion:</b> Islam</p>
+                <p><b>Gender:</b> Male</p>
+            </section>
+
+
+             <!--Education-->
+
+             <section id="Education">
+                <h3>Education</h3>
+                <p><b>DAE Civil Engineering:</b> From Pak Askari College And Institute (2023)</p>
+                <p><b>Intermediate:</b> I com From Govt Boys degree college</p>
+                <p><b>Matriculation:</b> Science From Barkat Memorial English School</p>
+            </section>
+
+
+            <!--skills section-->
+
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React.js</li>
+                    <li>Next.js</li>
+                    <li>tailwand CSS</li>
+                    <li>Ms office</li>
+                    <li>Communication</li>
+                    <li>Team Work</li>
+                    <li>Good Presentation Skills</li>
+                    <li> Problem Solving</li>
+                    <li>Focus on Client Service</li>
+                </ul>
+            </section>
+
+
+
+            <!--Experince-->
+
+            <section id="Experince">
+                <h3>Experince</h3>
+                <p><b>Company:</b> Syed Brother's Architecture & Construction Com pvt (lmtd)</p>
+                <p><b>Designation</b> "Marketing" sales Executive (Present)</p>
+                <p><b>Company</b> Syed Brother's Architecture & Construction Com pvt (lmtd)</p>
+                <p><b>Designation:</b> Site Engineer (20222 to 2023)</p>
+                <p><b>Company:</b> Shelter pvt (lmtd)</p>
+                <p><b>Designation:</b> Site Supervisor (2021 to 2022)</p>
+                <p><b>Company:</b> Ali Builder Goverment Contarector</p>
+                <p><b>Designation:</b> Site Supervisor (2020 to 2021)</p>
+            </section>
+
+
+            <!--Activites-->
+
+            <section id="Activities">
+                <h3>Activites</h3>
+                <p>I am student (Governor Initative Artificail Intellegence Course). I am learning frontend full stack web development.</p>
+            </section>
+
+            <!--Button to toggle Skills Section-->
+
+            <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("toggle-skills").addEventListener("click", function() {
+    var skillsSection = document.getElementById("skills");
+    // Check if the skills section is currently visible
+    if (skillsSection.style.display === "none") {
+        skillsSection.style.display = "block"; // Show the skills section
+    } else {
+        skillsSection.style.display = "none"; // Hide the skills section
+    }
+});
+
+    </script>
+</body>
+</html>
